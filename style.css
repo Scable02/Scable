@@ -4197,3 +4197,21 @@ section {
   width: 100vw !important;
   margin-left: 0 !important;
 }
+/* 🚨 NAVBAR SPACING FIX (MOBILE) */
+.nav-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* 🔥 key fix */
+}
+
+/* logo stays left */
+.logo {
+  margin: 0;
+}
+
+/* menu button goes right */
+.menu-toggle {
+  margin-left: auto;   /* 🔥 pushes it to extreme right */
+}.nav-flex {
+  padding: 0 16px;
+}
