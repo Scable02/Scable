@@ -4121,16 +4121,4 @@ li {
 }
 .hero-title {
   font-size: clamp(32px, 6vw, 64px);
-}/* 🚨 MOBILE HEADING FIX */
-@media (max-width: 900px) {
 
-  h1, .hero-title {
-    font-size: 36px !important;   /* reduce size */
-    line-height: 1.2;
-    text-align: center;
-
-    word-break: keep-all;         /* 🔥 prevents ugly breaks */
-    overflow-wrap: normal;
-  }
-
-}
