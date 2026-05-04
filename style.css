@@ -4182,3 +4182,18 @@ li {
   }
 
 }
+section {
+  width: 100%;
+  margin: 0;
+  position: relative;
+}.your-section {
+  background: 
+    linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.05) 1px, transparent 1px),
+    #0b0615;
+
+  background-size: 40px 40px;
+}section {
+  width: 100vw !important;
+  margin-left: 0 !important;
+}
