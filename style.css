@@ -4262,4 +4262,6 @@ section::after {
     #0b0615 !important;
 
   background-size: 40px 40px;
+}.categories * {
+  background: transparent !important;
 }
