@@ -4286,4 +4286,26 @@ section::after {
     #0b0615;
 
   background-size: 40px 40px;
+}/* 🚨 REMOVE ALL SECTION BACKGROUNDS */
+section {
+  background: transparent !important;
+}/* 🚨 SINGLE GLOBAL BACKGROUND (FIXES EVERYTHING) */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+  background:
+    linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.05) 1px, transparent 1px),
+    #0b0615;
+
+  background-size: 40px 40px;
+}/* 🚨 KILL THAT LEFT STRIP COMPLETELY */
+.categories,
+.categories::before,
+.categories::after {
+  background: transparent !important;
+  content: none !important;
+  display: none !important;
 }
